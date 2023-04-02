@@ -8,8 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -31,15 +29,17 @@
       
       
     <header class="header" id="header">
-        <div class="contenedor contenido-header d-flex align-items-center flex-column ">
-            
-            <img class="foto-perfil" src="img/profile-pic.png" alt="..." />
+        <div class="contenedor contenido-header ">
+            <div class="imagen-header">
+                <img class="foto-perfil" src="img/profile-pic.png" alt="..." />
+            </div>
+           
             <div class="texto-header">
                 <h1>Marta Alcázar Redondo</h1>
                 <h2>Desarrolladora Web FullStack</h2>
                 <!-- Masthead Subheading-->
                 <p class="header-parrafo">Como desarrolladora web fullstack tengo experiencia en la
-                    realización de aplicaciones webs desde cero, utilizando
+                    realización de aplicaciones web desde cero, utilizando
                     principalmente el lenguaje JavaScript, y diversas herramientas
                     como frameworks, librerías y bases de datos para diseñar y crear
                     soluciones. Amo instruirme en cosas nuevas de todo ámbito que
@@ -52,75 +52,107 @@
     </header>
     <section class="text-center" id="tecnologias">
         <div class="contenedor tecnologias">
-          <h2>Tecnologías</h2>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card card-custom rounded">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">HTML</h5>
+            <h2>Tecnologías</h2>
+        <div class="container">
+            <div class="grid">
+              <div class="grid-item">
+                <div>
+                  <img src="/img/html.svg" alt="HTML icon" class="icon">
+                  <p class="title">HTML</p>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card card-custom">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">CSS</h5>
+              <div class="grid-item">
+                <div>
+                  <img src="/img/css.svg" alt="CSS icon" class="icon">
+                  <p class="title">CSS</p>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card card-custom">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">JavaScript</h5>
+              <div class="grid-item">
+                <div>
+                  <img src="/img/javascript.svg" alt="JavaScript icon" class="icon">
+                  <p class="title">JavaScript</p>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card card-custom">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">NodeJs</h5>
+              <div class="col grid-item">
+                <div>
+                  <img src="/img/bootstrap.svg" alt="Bootstrap icon" class="icon">
+                  <p class="title">Bootstrap</p>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card card-custom">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Express</h5>
+              <div class="grid-item">
+                <div>
+                  <img src="/img/git.svg" alt="Git icon" class="icon">
+                  <p class="title">Git</p>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card card-custom">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">React</h5>
+              <div class="grid-item">
+                <div>
+                  <img src="/img/github.svg" alt="GitHub icon" class="icon">
+                  <p class="title">GitHub</p>
                 </div>
               </div>
-            </div>
-            <div class="col">
-                <div class="card card-custom">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">MongoDB</h5>
+              <div class="grid-item">
+                <div>
+                  <img src="/img/mysql.svg" alt="MySQL icon" class="icon">
+                  <p class="title">MySQL</p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <img src="/img/postgresql.svg" alt="PostgreSQL icon" class="icon">
+                  <p class="title">PostgreSQL</p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <img src="/img/mongodb.svg" alt="SASS icon" class="icon">
+                  <p class="title">MongoDB</p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <img src="/img/nodejs.svg" alt="PHP icon" class="icon">
+                  <p class="title">Nodejs</p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <img src="/img/express.svg" alt="CodeIgniter icon" class="icon">
+                  <p class="title">Express</p>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div>
+                  <img src="/img/tailwind.svg" alt="Tailwind CSS icon" class="icon">
+                  <p class="title">Tailwind CSS</p>
+                </div>
+                </div>
+                <div class="grid-item">
+                    <div>
+                      <img src="/img/react.svg" alt="React icon" class="icon">
+                      <p class="title">React</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div>
+                      <img src="/img/vite.svg" alt="React icon" class="icon">
+                      <p class="title">Vite</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div>
+                      <img src="img/vue.svg" alt="CodeIgniter icon" class="icon">
+                      <p class="title">Vuejs</p>
+                    </div>
                   </div>
+                  <div class="grid-item">
+                    <div>
+                      <img src="/img/pug.svg" alt="React icon" class="icon">
+                      <p class="title">Pug</p>
+                    </div>
                 </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card card-custom">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">MySQL</h5>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
+    </section>
       
     <section class="text-center" id="experiencia">
         <div class="contenedor">
