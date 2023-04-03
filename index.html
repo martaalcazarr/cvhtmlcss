@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/e5c0316fc6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -35,8 +36,8 @@
             </div>
            
             <div class="texto-header">
-                <h1>Marta Alcázar Redondo</h1>
-                <h2>Desarrolladora Web FullStack</h2>
+                <h1 class="nombre">Marta Alcázar Redondo</h1>
+                <h2 class="mi-titulo">Desarrolladora Web FullStack</h2>
                 <!-- Masthead Subheading-->
                 <p class="header-parrafo">Como desarrolladora web fullstack tengo experiencia en la
                     realización de aplicaciones web desde cero, utilizando
@@ -144,8 +145,8 @@
                       <img src="img/vue.svg" alt="CodeIgniter icon" class="icon">
                       <p class="title">Vuejs</p>
                     </div>
-                  </div>
-                  <div class="grid-item">
+                </div>
+                <div class="grid-item">
                     <div>
                       <img src="/img/pug.svg" alt="React icon" class="icon">
                       <p class="title">Pug</p>
@@ -155,25 +156,101 @@
     </section>
       
     <section class="text-center" id="experiencia">
-        <div class="contenedor">
+        <div class="contenedor contenedor-experiencia">
             <h2>Experiencia</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eos inventore aliquam hic sunt assumenda corporis vel optio excepturi ad in repudiandae officia, aspernatur porro sed culpa consectetur? Itaque, vitae.</p>
+            <div class="experiencia">
+              <h3>Desarrollador Backend </h3>
+              <h4>Seleccionado 7, No Country</h4>
+              <h5>Marzo - Abril 2023</h5>
+              <p>Desarrollo del código backend dentro de un equipo de trabajo multidisplinario para un proyecto de una aplicación web de red social con stack MERN.
+                Realización de controladores, helpers, middlewares y confección y configuración base de datos. </p>
+                <a href="https://github.com/No-Country/s7-18-t-nodereact">Repositorio</a>
+           </div>
+           <div class="experiencia">
+              <h3>Desarrollador Backend</h3>
+              <h4>Cohorte 9, No Country</h4>
+              <h5>Febrero - Marzo 2023</h5>
+              <p>Desarrollo del código backend dentro de un de trabajo multidisplinario para un proyecto de una aplicación web de turnos con stack MERN.
+                Realización de modelos, rutas, controladores, helpers, middlewares y confección y configuración base de datos. </p>
+              <a href="https://github.com/No-Country/C9-G21">Repositorio</a>
+           </div>
         </div>
         
     </section>
     <section class="text-center" id="proyectos">
         <div class="contenedor">
             <h2>Proyectos realizados</h2>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quidem quisquam voluptatibus quaerat dolore, dolores quam facere, atque odio suscipit commodi! Voluptatum iste eius aperiam deleniti nobis ab eaque optio?
-            </p>
+            <div class="container">
+              <div class=" grid grid-proyectos">
+                <div class="grid-proyecto">
+                  <div>
+                    <p class="title">Administrador de pacientes para veterinaria</p>
+                    <img src="/img/administradorveterinaria.jpg" alt="React icon" class="icon">
+                    <a href="">Repositorio</a>
+                  </div>
+              </div>
+              <div class="grid-proyecto">
+                <div>
+                  <p class="title">Landing Page AudioTech</p>
+                  <img src="/img/landingpageaudiotech.jpg" alt="React icon" class="icon">
+                  <a href="">Repositorio</a>
+                </div>
+            </div>
+            <div class="grid-proyecto">
+              <div>
+                <p class="title">Planificador de gastos</p>
+                <img src="/img/planificadorgastos.jpg" alt="React icon" class="icon">
+                <a href="">Repositorio</a>
+              </div>
+            </div>
+            <div class="grid-proyecto">
+              <div>
+                <p class="title">Cotizador para créditos</p>
+                <img src="/img/cotizadorcredito.jpg" alt="React icon" class="icon">
+                <a href="">Repositorio</a>
+              </div>
+            </div>
+            <div class="grid-proyecto">
+              <div>
+                <p class="title">Agencia de viajes</p>
+                <img src="/img/agenciaviajespug.jpg" alt="React icon" class="icon">
+                <a href="">Repositorio</a>
+              </div>
+            </div>
+            <div class="grid-proyecto">
+              <div>
+                <p class="title">Calculadora de consumos y propinas</p>
+                <img src="/img/calculadoraconsumos.jpg" alt="React icon" class="icon">
+                <a href="">Repositorio</a>
+              </div>
+            </div>
+            <div class="grid-proyecto">
+              <div>
+                <p class="title">CRM</p>
+                <img src="/img/crmjson.jpg" alt="React icon" class="icon">
+                <a href="">Repositorio</a>
+              </div>
+            </div>
+            <div class="grid-proyecto">
+              <div>
+                <p class="title">Buscador de recetas</p>
+                <img src="/img/buscadorrecetas.jpg" alt="React icon" class="icon">
+                <a href="">Repositorio</a>
+              </div>
+            </div>
+              </div>
+            </div>
         </div>
         
     </section>
-    <footer>
-        <div>
-
-        </div>
+    <footer class="footer">
+      <ul class="redes-sociales text-center">
+        <li class="red-social"><a href="https://web.facebook.com/marta.alcazar.750"><i style="color: black" class="fa-brands fa-facebook fa-2xl"></i></a></li>
+        <li class="red-social"><a href="https://www.instagram.com/m.a.r__91/"><i style="color: black" class="fa-brands fa-instagram fa-2xl"></i></a></li>
+        <li class="red-social"><a href="https://github.com/martaalcazarr"><i style="color: black" class="fa-brands fa-github fa-2xl"></i></a></li>
+        <li class="red-social"><a href="https://www.linkedin.com/in/marta-alc%C3%A1zar-redondo/"><i style="color: black" class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+      </ul>
+      <h4 class="footer-nombre text-center">Marta Alcázar Redondo - 2023</h4>
     </footer>
     <script>
         const toggleButton = document.querySelector('.navbar-toggle');
