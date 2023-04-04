@@ -261,7 +261,13 @@ img{
   }
   .grid-proyecto{
     padding: 1rem;
+    max-height: 200px;
   }
+  .grid-title{
+    
+    
+  }
+ 
   
   .footer {
     background: var(--gris)
